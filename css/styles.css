@@ -73,149 +73,6 @@
 	src: url("../fonts/pfdintextcomppro-thin.ttf") format("truetype");
 }
 
-html,
-body,
-div,
-span,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-font,
-img,
-ins,
-kbd,
-q,
-s,
-small,
-strong,
-var,
-b,
-u,
-i,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-}
-
-body {
-	line-height: 1;
-	color: black;
-	background: white;
-}
-
-ol,
-ul {
-	list-style: none;
-}
-
-:focus {
-	outline: 0;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-weight: normal;
-	font-size: 100%;
-}
-
-a {
-	text-decoration: none;
-}
-
-a:hover {
-	outline: none;
-	text-decoration: none;
-}
-
-h1 {
-	font-size: ;
-}
-
-h2 {
-	font-size: ;
-}
-
-h3 {
-	font-size: ;
-}
-
-h4 {
-	font-size: ;
-}
-
-h5 {
-	font-size: ;
-}
-
-input {
-	background: #FFF;
-	border: 1px solid #ccc;
-}
-
-input:focus {
-	border: 1px solid #999;
-}
-
-p {
-	font-size: 14px;
-}
-
-.clearfix:before,
-.clearfix:after {
-	content: " ";
-	display: table;
-}
-
-.clearfix:after {
-	clear: both;
-}
 
 .header_my {
 	width: 100%;
@@ -236,9 +93,7 @@ p {
 	padding: 10px 13px;
 }
 
-.header_my .navbar {
-	margin-bottom: 0;
-}
+
 
 
 .footer_tlf {
@@ -246,15 +101,9 @@ p {
 	margin-left: auto;
 }
 
-.head_tlf,
-.cell_btn_header a, footer .cell_btn a {
-	text-align: center;
-	margin: auto;
-}
 
-.cell_btn_header, .head_tlf {
-	width: 100%;
-}
+
+
 
 
 
@@ -265,7 +114,7 @@ p {
 	color: #2f2f2f;
 	font-size: 20px;
 	display: inline-block;
-	line-height: 24px;
+	line-height: auto;
 }
 
 .head_tlf .i_tlf {
@@ -1014,6 +863,7 @@ p {
 
 .question_block {
 	width: 100%;
+	overflow: hidden;
 }
 
 .qb_left {
@@ -1039,20 +889,19 @@ p {
 
 .question_block .block_title_b:after {
 	content: "";
-	width: 30%;
+	width: 100%;
 	height: 1px;
 	background: #06a4fe;
 	position: absolute;
-	left: 40%;
+	left: 10%;
 	bottom: 0;
 	margin: 0;
 }
 
 .qb_form {
-	width: 90%;
+	width: 100%;
 	height: 100%;
-	padding: 60px 0;
-	float: right;
+	padding: 40px 0;
 	background: #0c2534;
 	-webkit-transform: skew(-20deg);
 	-moz-transform: skew(-20deg);
