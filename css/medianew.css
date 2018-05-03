@@ -1,0 +1,289 @@
+@media (max-width:1281px){
+
+}
+
+@media (max-width:1024px){
+
+    .logo img{
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	}
+	
+	.navbar-collapse.collapse {
+	padding: 0;
+}
+
+.head_tlf {
+	padding-top: 35px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.pacets_list li .pl_img {
+	height: 115px;
+}
+
+.adv_list li {
+	padding: 30px 18px;
+}
+
+.idresh_list li {
+	width: 44%;
+}
+
+.idresh_list li:nth-child(2n+1), .idresh_list li {
+	padding-right: 55px;
+	padding-left: 10px;
+}
+
+.itog_list li {
+	width: 49%;
+}
+
+ .footer_tlf{
+ 	padding: 0
+ }
+ 
+ .cell_btn {
+ 	padding: 0;
+	padding-top: 25px;
+}
+
+
+}
+
+
+
+@media (min-width:990px) and (max-width:1200px){
+
+
+}
+
+@media (min-width:651px) and (max-width:989px){
+    .logo img{
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	}
+	
+	.navbar-collapse.collapse {
+	padding: 0;
+}
+
+.top_menu, .head_tlf {
+	padding-top: 0px;
+}
+
+.slogan {
+	margin-top: 21%;
+}
+
+.wb_right p {
+	font-size: 17px;
+	line-height: 20px;
+	margin-bottom: 7px;
+}
+
+.three_block, .pacets_block, .reshenie_block {
+	padding: 60px 0;
+}
+
+.pacets_list li .pl_img {
+	height: 87px;
+}
+
+.pacets_list li p {
+	padding: 0 12px;
+	height: 80px;
+}
+
+.block_title_w h2 {
+	line-height: 47px;
+}
+
+.resb_right img {
+	margin-top: 110px;
+}
+
+.adv_list p {
+	font-size: 14px;
+	line-height: 19px;
+	height: auto;
+}
+
+.adv_list li {
+	padding: 16px 12px;
+	margin-right: 12px;
+}
+
+.idresh_list li {
+	padding: 11px 0;;
+	min-height: 135px;
+}
+
+.block_title_b p {
+	line-height: 40px;
+}
+
+.prim_list li {
+	width: 48%;
+	margin-bottom: 20px;
+}
+
+.skhema_list li {
+	padding: 0 17px;
+}
+
+.itog_list li p {
+	width: 65%;
+}
+
+.qb_left {
+	padding: 100px 15px;
+}
+
+    
+}
+
+
+
+@media (max-width:650px){
+.logo img{
+	margin: 0 auto;
+	display: block;
+	}
+	
+.top_menu {
+	 padding-top: 0; 
+	position: absolute;
+	top: 0;
+}
+
+.navbar-toggle .icon-bar {
+	display: block;
+	width: 30px;
+	height: 4px;
+	border-radius: 1px;
+	background: #148ED1;
+}
+
+.navbar-toggle {
+	float: left;
+}
+
+.navbar-collapse{
+	background: #FFF;
+	z-index: 100;
+	position: relative;
+}
+
+.slogan {
+	margin-top: 10%;
+	margin-bottom: 40px;
+}
+
+.whatis_block {
+	padding: 40px 0;
+}
+
+.block_title_b h2 {
+	font-size: 26px;
+	margin: 0 0 35px 0;
+	line-height: 55px;
+}
+
+.wb_left{
+	margin-bottom: 20px;
+}
+
+.three_block {
+	width: 100%;
+	background: url('../images/fon2.jpg')no-repeat;
+	padding: 55px 0;
+}
+
+.block_title_w h2 {
+	font-size: 28px;
+	line-height: 41px;
+}
+
+.block_title_w p {
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+
+.tb_btn {
+	margin-top: 65px;
+	margin-bottom: 65px;
+}
+
+.pacets_block {
+	padding: 45px 0;
+}
+
+.block_title_b p {
+	line-height: 30px;
+}
+
+.pacets_list li, .adv_list li, .skhema_list li, .itog_list li {
+	width: 100%;
+	margin-right: 0;
+	float: none;
+	margin-bottom: 15px;
+}
+
+.reshenie_block {
+	padding: 65px 0;
+}
+
+.resb_btn {
+	width: 290px;
+}
+
+.idresh_list li {
+	width: 80%;
+}
+
+.w_btn {
+	font-size: 20px;	
+}
+.itog_list li i {
+	width: 54px;
+	height: 53px;
+}
+
+.itog_list li i img{
+	width: 100%;
+}
+
+.qb_left {
+	padding: 47px 15px;
+}
+
+.qb_form {
+	width: 100%;
+	display: block;
+	float: none;
+	-webkit-transform: skew(0deg);
+-moz-transform: skew(0deg);
+-o-transform: skew(0deg);
+}
+
+.block_title_w::after {
+	bottom: -12px;
+}
+
+.slogan .sl_t {
+	line-height: 34px;
+}
+
+
+	
+}
+
+
+
+@media (max-width:360px){
+	
+}

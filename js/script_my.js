@@ -1,4 +1,4 @@
-
+new WOW().init();
 
 
   $('.go_to').click( function(){
